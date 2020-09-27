@@ -17,15 +17,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="I30-Ds-NzW">
-                                <rect key="frame" x="-481.5" y="-240.5" width="1377" height="1377"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Bit-AP-IDu">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="I30-Ds-NzW" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="44k-s7-d21"/>
-                            <constraint firstItem="I30-Ds-NzW" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="AAE-HJ-Ivd"/>
+                            <constraint firstAttribute="bottom" secondItem="Bit-AP-IDu" secondAttribute="bottom" id="Hav-xa-YbO"/>
+                            <constraint firstAttribute="trailing" secondItem="Bit-AP-IDu" secondAttribute="trailing" id="Qab-7J-ZOr"/>
+                            <constraint firstItem="Bit-AP-IDu" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="lZ0-wM-L09"/>
+                            <constraint firstItem="Bit-AP-IDu" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="quL-sE-JEO"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -35,7 +37,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="background" width="1377" height="1377"/>
+        <image name="background" width="662" height="662"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
