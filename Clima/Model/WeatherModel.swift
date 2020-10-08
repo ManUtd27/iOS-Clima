@@ -8,15 +8,16 @@
 
 import Foundation
 
+/// What our Weather data or model will look like
 struct WeatherModel {
     let conditionId: Int
     let cityName: String
     let temperature: Double
-    
+    // Computed property that returns a formatted string of the temperature
     var temperatureString: String {
         return String(format: "%.1f", temperature)
     }
-    
+    // Computed property that returns a condition name/SF symbol name based on the condition ID 
     var conditionName: String {
         switch conditionId {
         case 200...232:

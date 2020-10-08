@@ -8,6 +8,7 @@
 
 import Foundation
 
+/// The structur of the weather data that is codable and used  for the shape for JSON decoding
 struct WeatherData: Codable {
     let name: String
     let main: Main
